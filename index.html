@@ -55,7 +55,9 @@
 
 
 <body id='object' class='container'>
-    <h2 class='bar1'>Day/Night Mode </h2>
+    <h2 class='bar1'> WebサイトのDay/Night Modeの具現化
+
+    </h2>
 
 
     <div>
@@ -64,9 +66,13 @@
     <button id='1' class='button' onclick="Change()">Auto</button>
     <button id='2' class='button' onclick="ToggleMode()">Night</button>
     <div>
-        <p class='mainbar'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class='mainbar'>1. Auto: JavaScriptのgetHoursやgetMinutesメソッドを活用することでシステム上の正確な時間を得ることができる。その得られた時間を 変数宣言し条件分岐することで現在時間のDay/Nightモードの判断ができる。(Day/Night Timeの絶対的な定義は無く、人による)その条件分岐に基づき、 CSSの背景色や文字色のプロパティを変更させることで本機能が動作する。 </p>
+        <p class="mainbar">2. Auto条件分岐の時間割：Day Mode=07:00~17:00 Night mode=17:01~06:59</p>
     </div>
+    <div>
+        <p class="mainbar">3. DayかつNightボタンを押すことで自発的にDay/Nigh Modeの設定も可能</p>
+    </div>
+
 </body>
 
 <script>
